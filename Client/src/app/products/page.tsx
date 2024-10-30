@@ -5,6 +5,7 @@ import { useCreateProducts, usegetProducts } from '@/lib/React-Query/QueriesandM
 import { PlusCircleIcon, SearchIcon } from 'lucide-react'
 import React, { useState } from 'react'
 import CreateProductModal from './CreateProductModal'
+
 type ProductFormData = {
   productId: string; 
   name: string;
