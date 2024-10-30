@@ -4,7 +4,7 @@ import Rating from '@/components/Rating'
 import { useCreateProducts, usegetProducts } from '@/lib/React-Query/QueriesandMutations'
 import { PlusCircleIcon, SearchIcon } from 'lucide-react'
 import React, { useState } from 'react'
-import CreateProductModal from './createProductModal'
+import CreateProductModal from './CreateProductModal'
 type ProductFormData = {
   productId: string; 
   name: string;
